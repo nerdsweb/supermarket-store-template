@@ -1,0 +1,95 @@
+.home_bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+
+    .home_bg {
+        height: 50vh;
+    }
+
+}
+
+
+//? grid de productos destacados y ofertas
+
+.space1 {
+    width: 60%;
+}
+
+.space2 {
+    width: 40%;
+}
+
+.item_bg {
+    background-size: cover;
+    background-position: center;
+}
+
+.item1 {
+    aspect-ratio: 9/12;
+}
+
+.item2 {
+    aspect-ratio: 9/12;
+}
+
+.item4 {
+    aspect-ratio: 1;
+}
+
+.item3 {
+    // aspect-ratio: 9/16;
+    height: 80%;
+}
+
+.item5 {
+    // aspect-ratio: 16/9;
+    height: 20%;
+    background-position: 0 60% !important;
+}
+
+@media (max-width: 767px) {
+
+    .space1 {
+        width: 100% !important;
+    }
+
+    .space2 {
+        width: 100% !important;
+    }
+
+    .item3 {
+        aspect-ratio: 9/16;
+    }
+
+    // .item5 {
+    //     // aspect-ratio: 16/9;
+    //     height: 20%;
+    //     background-position: 0 60% !important;
+    // }
+
+}
+
+//? parallax
+
+.parallax_bg {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

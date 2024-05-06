@@ -1,0 +1,10 @@
+.grid_menu {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(90px, 1fr));
+    // grid-auto-columns: 1fr;
+    // grid-auto-flow: column;
+}
+
+a {
+    text-decoration: none;
+}

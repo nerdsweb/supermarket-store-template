@@ -1,0 +1,84 @@
+<!-- Imagen principal -->
+<div class="d-flex flex-column overflow-hidden align-items-center w-100">
+
+    <!-- Imagen de fondo -->
+    <section class="row g-0 justify-content-center align-items-start mx-auto home_bg position-relative"
+        [style.background-image]="'url('+images.home_bg+')'">
+
+        <h1 class="text-center position-absolute cmm-txt-thin-bold"
+            style="top: 25%;left: 50%;transform: translateX(-50%);z-index: 1;">
+            ¡Leer es
+            divertido!</h1>
+
+    </section>
+
+    <div class="row g-0 w-100 justify-content-center mx-auto" style="max-width: 1500px;">
+
+        <div class="col-12">
+
+            <!-- Productos populares -->
+            <section class="row g-0 p-5 w-100">
+
+                <h3>Nuevo</h3>
+                <p>Descubre los últimos libros y los nuevos lanzamientos de moda</p>
+
+                <div class="col-12 d-flex gap-3 mt-5">
+
+                    <div class="row g-0 w-100 justify-content-start">
+                        <cmp-cmm-product-card-v2 *ngFor="let item of section1Products"
+                            class="col-lg-4 col-xl-3 col-md-6 d-flex justify-content-center mb-5" [product]="item"
+                            [configStyle]="{priceColor: '#E88A10'}"
+                            (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- parallax -->
+            <section class="row w-100 g-0 justify-content-center bg_image"
+                [style.background-image]="'url('+images.product21+')'" style="aspect-ratio: 16/7;"></section>
+
+            <!-- Cuentos infantiles -->
+            <section class="row g-0 p-5 w-100">
+
+                <h3>Cuentos y juegos infantiles</h3>
+
+                <div class="col-12 d-flex gap-3 mt-5">
+
+                    <div class="row g-0 w-100 justify-content-start">
+                        <cmp-cmm-product-card-v2 *ngFor="let item of section2Products"
+                            class="col-lg-4 col-xl-3 col-md-6 d-flex justify-content-center mb-5" [product]="item"
+                            [configStyle]="{priceColor: '#E88A10'}"
+                            (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Cuentos infantiles -->
+            <section class="row justify-content-center g-0 p-5 w-100">
+
+                <h2 class="text-center cmm-txt-thin-bold">Papelería artículos de oficina agendas y más</h2>
+
+                <div class="col-12 d-flex gap-3 my-5">
+
+                    <div class="row g-0 w-100 justify-content-start">
+                        <cmp-cmm-product-card-v2 *ngFor="let item of section3Products"
+                            class="col-lg-4 col-xl-3 col-md-6 d-flex justify-content-center mb-5" [product]="item"
+                            [configStyle]="{priceColor: '#E88A10'}"
+                            (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
+                    </div>
+                </div>
+
+                <cmp-cmm-new-button class="mt-3" style="max-width: 200px;">
+                    <span class="fs-12 cmm-txt-thin-bold">Ver todo</span>
+                </cmp-cmm-new-button>
+
+            </section>
+
+        </div>
+
+    </div>
+
+
+</div>

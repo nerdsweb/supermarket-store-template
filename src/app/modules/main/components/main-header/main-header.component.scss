@@ -1,0 +1,44 @@
+.header_icon {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.header_bg {
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 12%) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+//? grid de navbar
+
+.navbar_grid {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
