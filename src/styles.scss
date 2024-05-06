@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+ Importaciones de Archivo de Estilos
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./app/common/assets/styles/scss/backgrounds.scss";
+@import "./app/common/assets/styles/scss/materialize.scss";
+@import "./assets/styles/scss/text.scss";
+@import "./app/common/assets/styles/scss/variables.scss";
+@import "./app/common/assets/styles/scss/effects.scss";
+@import "./app/common/assets/styles/scss/themes-material.scss";
+
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+*:not(.material-icons) {
+    font-family: "montserrat" !important;
+    box-sizing: border-box;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: white;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+}
+
+.color_box {
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+@media (max-width: 400px) {
+
+    .decorated_title {
+        flex: min-content;
+        width: min-content;
+    }
+
+}

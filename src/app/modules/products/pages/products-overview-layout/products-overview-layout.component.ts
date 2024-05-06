@@ -25,7 +25,7 @@ export class ProductsOverviewLayoutComponent {
     {
       id: '3',
       images: [
-        images.product20,
+        images.product11,
       ],
       mainImage: images.product6,
       name: 'Never split the difference',
@@ -47,7 +47,7 @@ export class ProductsOverviewLayoutComponent {
     {
       id: '3',
       images: [
-        images.product20,
+        images.product11,
       ],
       mainImage: images.product6,
       name: 'HÁBITOS ATÓMICOS',

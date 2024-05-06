@@ -133,42 +133,7 @@ export class HomeLayoutComponent {
   ]
 
   section3Products: CmmEcomProductCardDataModel[] = [
-    {
-      image: images.product13,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '1'
-    },
-    {
-      image: images.product14,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '1'
-    },
-    {
-      image: images.product15,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '1'
-    },
-    {
-      image: images.product16,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '1'
-    },
+
   ]
 
   constructor(

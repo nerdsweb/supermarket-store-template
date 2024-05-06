@@ -15,7 +15,7 @@ export class ProductsDetailLayoutComponent {
   product: CmmEcomProductDetailModelv2 = {
     id: '1',
     images: [
-      images.product20,
+      images.product6,
     ],
     mainImage: images.product6,
     name: 'Never split the difference',

@@ -47,42 +47,6 @@ export class ProductsLayoutComponent {
       id: '8'
     },
     {
-      image: images.product17,
-      title: '8 RULES OF LOVE',
-      brand: 'JAY SHETTY',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product18,
-      title: 'A COUR OF FROST',
-      brand: 'SARAH J. MAAS',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product19,
-      title: '21 LESSONS FOR THE CENTURY',
-      brand: 'YUVAL NOAH HARARI',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product20,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
       image: images.product5,
       title: 'PADRE RICO PADRE POBRE',
       brand: 'Robert T. Kiyosaki',
@@ -113,42 +77,6 @@ export class ProductsLayoutComponent {
       image: images.product8,
       title: 'EL PERFUME',
       brand: 'PATRIC SÜSKIND',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product17,
-      title: '8 RULES OF LOVE',
-      brand: 'JAY SHETTY',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product18,
-      title: 'A COUR OF FROST',
-      brand: 'SARAH J. MAAS',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product19,
-      title: '21 LESSONS FOR THE CENTURY',
-      brand: 'YUVAL NOAH HARARI',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '8'
-    },
-    {
-      image: images.product20,
-      title: 'LA TIERRA PROMETIDA',
-      brand: 'BARACK OBAMA',
       price: '14,00',
       previousprice: '27,00',
       currency: '$',
