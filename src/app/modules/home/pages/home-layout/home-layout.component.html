@@ -5,16 +5,73 @@
     <section class="row g-0 justify-content-center align-items-start mx-auto home_bg position-relative"
         [style.background-image]="'url('+images.home_bg+')'">
 
-        <h1 class="text-center position-absolute cmm-txt-thin-bold"
-            style="top: 25%;left: 50%;transform: translateX(-50%);z-index: 1;">
-            ¡Leer es
-            divertido!</h1>
+        <div class="position-absolute d-flex justify-content-center align-items-center flex-column"
+            style="top: 50%;left: 50%;transform: translateX(-50%);z-index: 1;">
+
+            <p class="text-white text-center fs-24">Lo que necesitas para tu hogar</p>
+            <h1 class="text-center text-white cmm-txt-thin-bold">
+                En un solo lugar</h1>
+
+            <div class="w-100" style="max-width: 200px !important;">
+                <cmp-cmm-new-button [config]="{customBg: 'cmm-bg-project-secundary', customBorderRadius: '0'}">
+                    <span class="fs-24 cmm-txt-thin-bold">
+                        Ver todo
+                    </span>
+                </cmp-cmm-new-button>
+            </div>
+
+        </div>
 
     </section>
 
     <div class="row g-0 w-100 justify-content-center mx-auto" style="max-width: 1500px;">
 
         <div class="col-12">
+
+            <section class="d-flex g-0 w-100 my-5">
+
+                <div class="d-flex align-items-center justify-content-end rounded bg_image_item"
+                    [style.background-image]="'url('+images.home_bg1+')'">
+
+                    <div class="d-flex flex-column align-items-center">
+
+                        <h3 class="text-white">FRUTAS FRESCAS</h3>
+                        <p class="text-white">PERFECTAS PARA TI</p>
+
+                        <div class="w-100" style="max-width: 200px !important;">
+                            <cmp-cmm-new-button
+                                [config]="{customBg: 'cmm-bg-project-secundary',customBorderRadius: '0'}">
+                                <span class="fs-24 cmm-txt-thin-bold">
+                                    Ver todo
+                                </span>
+                            </cmp-cmm-new-button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="d-flex align-items-center justify-content-center rounded bg_image_item"
+                    [style.background-image]="'url('+images.home_bg2+')'">
+
+                    <div class="d-flex flex-column align-items-center">
+
+                        <p class="text-white">VISITA NUESTRA NUEVA SECCIÓN</p>
+                        <h3 class="text-white">CARNICERÍA</h3>
+
+                        <div class="w-100" style="max-width: 200px !important;">
+                            <cmp-cmm-new-button [config]="{customBorderRadius: '0'}">
+                                <span class="fs-24 cmm-txt-thin-bold">
+                                    Ver todo
+                                </span>
+                            </cmp-cmm-new-button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
 
             <!-- Productos populares -->
             <section class="row g-0 p-5 w-100">
