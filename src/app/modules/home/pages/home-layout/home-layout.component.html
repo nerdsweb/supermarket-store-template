@@ -30,16 +30,16 @@
 
             <section class="row g-0 w-100 my-5 align-items-center">
 
-                <div class="col-5 p-3" style="height: 400px;">
+                <div class="col-lg-5 p-3" style="height: 400px;">
 
                     <div class="bg_image_item  d-flex align-items-center justify-content-center  w-100 h-100"
                         style="border-radius: 30px;"
                         [style.background-image]="'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)),url('+images.home_bg1+')'">
 
-                        <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
 
-                            <h3 class="text-white">FRUTAS FRESCAS</h3>
-                            <p class="text-white">PERFECTAS PARA TI</p>
+                            <h3 class="text-white text-center">FRUTAS FRESCAS</h3>
+                            <p class="text-white text-center fs-24">PERFECTAS PARA TI</p>
 
                             <div class="w-100" style="max-width: 200px !important;">
                                 <cmp-cmm-new-button
@@ -56,16 +56,16 @@
 
                 </div>
 
-                <div class="col-7 p-3" style="height: 400px;">
+                <div class="col-lg-7 p-3" style="height: 400px;">
 
                     <div class="bg_image_item  d-flex align-items-center justify-content-center  w-100 h-100"
                         style="border-radius: 30px;"
                         [style.background-image]="'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)),url('+images.home_bg2+')'">
 
-                        <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center px-2">
 
-                            <h3 class="text-white">VISITA NUESTRA NUEVA SECCIÓN</h3>
-                            <p class="text-white">CARNICERÍA</p>
+                            <h3 class="text-white text-center">VISITA NUESTRA NUEVA SECCIÓN</h3>
+                            <p class="text-white text-center fs-24">CARNICERÍA</p>
 
                             <div class="w-100" style="max-width: 200px !important;">
                                 <cmp-cmm-new-button
@@ -127,26 +127,77 @@
                     </div>
                 </div>
 
-            </section>
+                <div class="col-12 d-flex justify-content-center">
 
-            <!-- Cuentos infantiles -->
-            <section class="row justify-content-center g-0 p-5 w-100">
+                    <!-- botón de ver más -->
+                    <div class="w-100" style="max-width: 200px !important;">
 
-                <h2 class="text-center cmm-txt-thin-bold">Papelería artículos de oficina agendas y más</h2>
+                        <cmp-cmm-new-button [config]="{customBorderRadius: '0', customHeight: '48px'}">
+                            <span class="fs-24 cmm-txt-thin-bold">
+                                Ver todo
+                            </span>
+                        </cmp-cmm-new-button>
 
-                <div class="col-12 d-flex gap-3 my-5">
-
-                    <div class="row g-0 w-100 justify-content-start">
-                        <cmp-cmm-product-card-v2 *ngFor="let item of section3Products"
-                            class="col-lg-4 col-xl-3 col-md-6 d-flex justify-content-center mb-5" [product]="item"
-                            [configStyle]="{priceColor: '#E88A10'}"
-                            (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
                     </div>
+
                 </div>
 
-                <cmp-cmm-new-button class="mt-3" style="max-width: 200px;">
-                    <span class="fs-12 cmm-txt-thin-bold">Ver todo</span>
-                </cmp-cmm-new-button>
+            </section>
+
+            <!-- sección final -->
+            <section class="row g-0 w-100 my-5 align-items-center">
+
+                <div class="col-lg-8 p-3" style="height: 400px;">
+
+                    <div class="bg_image_item  d-flex align-items-center justify-content-start px-3 w-100 h-100"
+                        style="border-radius: 30px;"
+                        [style.background-image]="'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)),url('+images.home_bg1+')'">
+
+                        <div class="d-flex flex-column justify-content-start align-items-center">
+
+                            <h3 class="text-white text-center">HIGIENE Y SALUD</h3>
+                            <p class="text-white text-center fs-24">PARA TU PIEL</p>
+
+                            <div class="w-100" style="max-width: 200px !important;">
+                                <cmp-cmm-new-button
+                                    [config]="{customBg: 'cmm-bg-project-primary',customBorderRadius: '0', customHeight: '48px'}">
+                                    <span class="fs-24 cmm-txt-thin-bold">
+                                        Ver todo
+                                    </span>
+                                </cmp-cmm-new-button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 p-3" style="height: 400px;">
+
+                    <div class="bg_image_item  d-flex align-items-center justify-content-center  w-100 h-100"
+                        style="border-radius: 30px;"
+                        [style.background-image]="'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1)),url('+images.home_bg2+')'">
+
+                        <div class="d-flex flex-column justify-content-center align-items-center px-2">
+
+                            <h3 class="text-white text-center">BELLEZA Y CUIDADO</h3>
+                            <h3 class="text-white text-center fs-24">DE TU PIEL</h3>
+
+                            <div class="w-100" style="max-width: 200px !important;">
+                                <cmp-cmm-new-button
+                                    [config]="{customBg: 'cmm-bg-project-secundary',customBorderRadius: '0'}">
+                                    <span class="fs-24 cmm-txt-thin-bold">
+                                        Ver todo
+                                    </span>
+                                </cmp-cmm-new-button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </section>
 
