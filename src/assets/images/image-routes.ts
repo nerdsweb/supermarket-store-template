@@ -27,8 +27,8 @@ export const images = {
     product11: 'assets/images/products/product11.jpg',
     product12: 'assets/images/products/product12.png',
     home_bg: 'assets/images/home_bg.png',
-    home_bg1: 'assets/images/home_bg1.png',
-    home_bg2: 'assets/images/home_bg2.png',
+    home_bg1: 'assets/images/home_bg1.jpg',
+    home_bg2: 'assets/images/home_bg2.jpg',
     home_oranges: 'assets/images/home_oranges.png',
     products_bg: 'assets/images/products_bg.jpg',
 }
