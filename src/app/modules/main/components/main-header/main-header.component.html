@@ -1,68 +1,78 @@
 <header class="row justify-content-center mx-auto w-100 header_bg">
 
-    <div class="col-3 d-flex align-items-center justify-content-center">
+    <div class="col-12 d-flex justify-content-center" style="max-width: 1500px;">
 
-        <img [src]="logos.daves" class="cursor-pointer" style="width: 75px;max-height: 150px;" routerLink="/home"
-            alt="">
+        <div class="row w-100">
 
-    </div>
+            <div class="col-3 d-flex align-items-center justify-content-center">
 
-    <!-- Parte de iconos, input y navbar -->
-    <div class="col-9">
-
-        <div class="row w-100 py-4">
-
-            <div class="col-12 d-flex justify-content-between">
-
-                <!-- Input de búsqueda -->
-                <div class="d-flex align-items-center justify-content-between border ps-3 w-100"
-                    style="max-width: 500px;max-height: 30px;">
-
-                    <input name="eren" type="text" class="input_default" style="width: calc(100% - 30px);">
-
-                    <div class="cmm-bg-project-secundary d-flex align-items-center justify-content-center"
-                        style="width: 60px; height: 100%;">
-                        <!-- <label for="eren">Buscar</label> -->
-                        <mat-icon class="header_icon text-white fs-30 text-secondary cursor-pointer">search</mat-icon>
-                    </div>
-
-                </div>
-
-                <div class="d-flex align-items-center gap-1">
-                    <img src="assets/images/icons/whatsapp.svg" style="height: 25px;width: 25px;" alt="">
-                    <p class="cmm-txt-thin-bold m-0">0212-352-2583</p>
-                </div>
+                <img [src]="logos.daves" class="cursor-pointer" style="width: 75px;max-height: 150px;"
+                    routerLink="/home" alt="">
 
             </div>
 
-            <!-- Segundo piso -->
-            <div class="col-12 d-flex justify-content-between align-items-center gap-3 p-3" style="max-width: 1500px;">
+            <!-- Parte de iconos, input y navbar -->
+            <div class="col-9">
 
-                <!-- <img [src]="logos.daves" class="cursor-pointer" style="width: 75px;max-height: 150px;" routerLink="/home"
-                    alt=""> -->
+                <div class="row w-100 py-4">
 
-                <div class="d-none d-md-flex flex-grow-1 justify-content-center gap-3">
+                    <div class="col-12 d-flex justify-content-between">
 
-                    <div class="navbar_grid w-100" style="max-width: 600px;">
+                        <!-- Input de búsqueda -->
+                        <div class="d-flex align-items-center justify-content-between border ps-3 w-100"
+                            style="max-width: 500px;max-height: 30px;">
 
-                        <a *ngFor="let item of navbarItems" class="text-decoration-none text-black cmm-txt-thin-bold"
-                            routerLink="/products">{{item.text}}</a>
+                            <input name="eren" type="text" class="input_default" style="width: calc(100% - 30px);">
+
+                            <div class="cmm-bg-project-secundary d-flex align-items-center justify-content-center"
+                                style="width: 60px; height: 100%;">
+                                <!-- <label for="eren">Buscar</label> -->
+                                <mat-icon
+                                    class="header_icon text-white fs-30 text-secondary cursor-pointer">search</mat-icon>
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex align-items-center gap-1">
+                            <img src="assets/images/icons/whatsapp.svg" style="height: 25px;width: 25px;" alt="">
+                            <p class="cmm-txt-thin-bold m-0">0212-352-2583</p>
+                        </div>
+
                     </div>
 
-                </div>
+                    <!-- Segundo piso -->
+                    <div class="col-12 d-flex justify-content-between align-items-center gap-3 p-3">
 
-                <div class="d-none d-md-flex gap-3">
+                        <!-- <img [src]="logos.daves" class="cursor-pointer" style="width: 75px;max-height: 150px;" routerLink="/home"
+                            alt=""> -->
 
-                    <mat-icon class="header_icon fs-30 cursor-pointer">favorite_outline</mat-icon>
-                    <mat-icon class="header_icon fs-30 cursor-pointer">person_outline</mat-icon>
-                    <mat-icon class="header_icon fs-30 cursor-pointer"
-                        routerLink="/products/overview">shopping_cart</mat-icon>
+                        <div class="d-none d-md-flex flex-grow-1 justify-content-center gap-3">
 
-                </div>
+                            <div class="navbar_grid w-100" style="max-width: 600px;">
 
-                <div class="d-flex d-md-none" (click)="toggleSidenav()">
+                                <a *ngFor="let item of navbarItems"
+                                    class="text-decoration-none text-black cmm-txt-thin-bold"
+                                    routerLink="/products">{{item.text}}</a>
+                            </div>
 
-                    <mat-icon class="header_icon fs-30 cursor-pointer">menu</mat-icon>
+                        </div>
+
+                        <div class="d-none d-md-flex gap-3">
+
+                            <mat-icon class="header_icon fs-30 cursor-pointer">favorite_outline</mat-icon>
+                            <mat-icon class="header_icon fs-30 cursor-pointer">person_outline</mat-icon>
+                            <mat-icon class="header_icon fs-30 cursor-pointer"
+                                routerLink="/products/overview">shopping_cart</mat-icon>
+
+                        </div>
+
+                        <div class="d-flex d-md-none" (click)="toggleSidenav()">
+
+                            <mat-icon class="header_icon fs-30 cursor-pointer">menu</mat-icon>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -71,6 +81,7 @@
         </div>
 
     </div>
+
 
 
 </header>
