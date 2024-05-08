@@ -1,8 +1,8 @@
-<header class="row justify-content-center mx-auto w-100 header_bg">
+<header class="row g-0 justify-content-center mx-auto w-100 header_bg">
 
     <div class="col-12 d-flex justify-content-center" style="max-width: 1500px;">
 
-        <div class="row w-100">
+        <div class="row align-items-center g-0 w-100">
 
             <div class="col-3 d-flex align-items-center justify-content-center">
 
@@ -14,9 +14,9 @@
             <!-- Parte de iconos, input y navbar -->
             <div class="col-9">
 
-                <div class="row w-100 py-4">
+                <div class="row align-items-center g-0 w-100 py-4">
 
-                    <div class="col-12 d-flex justify-content-between">
+                    <div class="col-12 d-none d-lg-flex justify-content-between">
 
                         <!-- Input de búsqueda -->
                         <div class="d-flex align-items-center justify-content-between border ps-3 w-100"
@@ -34,30 +34,27 @@
                         </div>
 
                         <div class="d-flex align-items-center gap-1">
-                            <img src="assets/images/icons/whatsapp.svg" style="height: 25px;width: 25px;" alt="">
-                            <p class="cmm-txt-thin-bold m-0">0212-352-2583</p>
+                            <img src="assets/images/icons/whatsapp.svg" class="small-scale cursor-pointer" style="height: 25px;width: 25px;" alt="">
+                            <p class="cmm-txt-thin-bold m-0 cursor-pointer">0212-352-2583</p>
                         </div>
 
                     </div>
 
                     <!-- Segundo piso -->
-                    <div class="col-12 d-flex justify-content-between align-items-center gap-3 p-3">
+                    <div class="col-12 d-flex justify-content-end justify-content-lg-between align-items-center gap-3 p-3">
 
                         <!-- <img [src]="logos.daves" class="cursor-pointer" style="width: 75px;max-height: 150px;" routerLink="/home"
                             alt=""> -->
 
-                        <div class="d-none d-md-flex flex-grow-1 justify-content-center gap-3">
+                        <div class="d-none d-lg-flex flex-grow-1 justify-content-start gap-3">
 
-                            <div class="navbar_grid w-100" style="max-width: 600px;">
-
-                                <a *ngFor="let item of navbarItems"
-                                    class="text-decoration-none text-black cmm-txt-thin-bold"
-                                    routerLink="/products">{{item.text}}</a>
-                            </div>
+                          <a *ngFor="let item of navbarItems"
+                              class="text-decoration-none text-nowrap text-black cmm-txt-thin-bold"
+                              routerLink="/products">{{item.text}}</a>
 
                         </div>
 
-                        <div class="d-none d-md-flex gap-3">
+                        <div class="d-none d-lg-flex gap-3">
 
                             <mat-icon class="header_icon fs-30 cursor-pointer">favorite_outline</mat-icon>
                             <mat-icon class="header_icon fs-30 cursor-pointer">person_outline</mat-icon>
@@ -66,11 +63,16 @@
 
                         </div>
 
-                        <div class="d-flex d-md-none" (click)="toggleSidenav()">
+                        <div class="d-flex d-lg-none gap-2">
 
-                            <mat-icon class="header_icon fs-30 cursor-pointer">menu</mat-icon>
+                          <mat-icon class="header_icon fs-30 cursor-pointer">favorite_outline</mat-icon>
+                          <mat-icon class="header_icon fs-30 cursor-pointer">person_outline</mat-icon>
+                          <mat-icon class="header_icon fs-30 cursor-pointer"
+                          routerLink="/products/overview">shopping_cart</mat-icon>
+                          <mat-icon class="header_icon fs-30 cursor-pointer" (click)="toggleSidenav()">menu</mat-icon>
 
                         </div>
+
 
                     </div>
 
