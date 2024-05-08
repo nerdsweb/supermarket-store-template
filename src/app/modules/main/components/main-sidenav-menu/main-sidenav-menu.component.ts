@@ -17,23 +17,23 @@ export class MainSidenavMenuComponent {
    */
   expansionPanelData: any[] = [
     {
-      header: 'Best sellers',
+      header: 'Vegetales y hortalizas',
       items: []
     },
     {
-      header: 'Recetas',
+      header: 'Viveres',
       items: []
     },
     {
-      header: 'Educativos',
+      header: 'Snacks',
       items: []
     },
     {
-      header: 'Infantiles',
+      header: 'Hogar',
       items: []
     },
     {
-      header: 'Papelería',
+      header: 'Higiene',
       items: []
     },
   ]
