@@ -5,10 +5,12 @@
         <!-- productos -->
         <div class="row g-0 w-100 justify-content-start mt-5">
 
-            <div *ngFor="let product of products" class="col-12 col-sm-6 col-md-4 d-flex justify-content-start mb-5">
+            <div *ngFor="let product of products"
+                class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-start mb-5">
 
                 <cmp-cmm-product-card-v2 class="w-100 d-flex justify-content-center" [product]="product"
-                    [configStyle]="{priceColor: '#E88A10'}" (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
+                    [configStyle]="{priceColor: '#E88A10', button: {outlined: true, customBg: 'btn-project-secundary-outline'}}"
+                    (addProduct)="navigate($event)"></cmp-cmm-product-card-v2>
 
             </div>
 

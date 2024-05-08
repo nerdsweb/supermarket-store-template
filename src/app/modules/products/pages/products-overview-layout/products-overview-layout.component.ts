@@ -11,52 +11,35 @@ export class ProductsOverviewLayoutComponent {
 
   productsList: CmmEcomProductDetailModelv2[] = [
     {
+      mainImage: images.product3,
       images: [],
-      mainImage: images.product5,
-      name: 'PADRE RICO PADRE POBRE',
-      brand: 'Robert T. Kiyosaki',
-      sku: 'krogm93746917',
-      price: '14,00',
-      previousPrice: '27,00',
-      quantity: 1,
+      name: 'SARDINAS EN SALSA DE TOMATE',
+      brand: 'MARGARITA',
+      price: '1,25',
+      previousPrice: '1,50',
       currency: '$',
-      id: '5'
+      id: '3',
+      quantity: 1
     },
     {
-      id: '3',
-      images: [
-        images.product11,
-      ],
-      mainImage: images.product6,
-      name: 'Never split the difference',
-      brand: 'Chris Voss',
-      sku: 'krogm93746917',
-      price: '175.00',
-      previousPrice: '',
+      mainImage: images.product4,
+      images: [],
+      name: 'KETCHUP PAMPERO 300ML',
+      price: '1,25',
+      previousPrice: '1,50',
       currency: '$',
-      quantity: 1,
-      aditionalInfo: [
-        {
-          title: 'sinopsis',
-          texts: [
-            'El prestigioso ex negociador internacional del FBI Chris Voss, especializado en secuestros con rehenes, nos enseña un método de negociación rompedor: tácticas para negociaciones duras que son aplicables en múltiples aspectos de nuestras vidas.',
-          ]
-        },
-      ],
+      id: '4',
+      quantity: 1
     },
     {
-      id: '3',
-      images: [
-        images.product11,
-      ],
       mainImage: images.product6,
-      name: 'HÁBITOS ATÓMICOS',
-      brand: 'JAMES CLEAR',
-      sku: 'krogm93746917',
-      price: '175.00',
-      previousPrice: '',
+      images: [],
+      name: 'ATUN EN ACEITE EVEBA 1KG',
+      price: '1,25',
+      previousPrice: '1,50',
       currency: '$',
-      quantity: 1,
+      id: '5',
+      quantity: 1
     },
   ]
 

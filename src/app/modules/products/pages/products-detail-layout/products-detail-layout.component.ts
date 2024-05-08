@@ -33,31 +33,29 @@ export class ProductsDetailLayoutComponent {
 
   products: any[] = [
     {
-      image: images.product5,
-      title: 'PADRE RICO PADRE POBRE',
-      brand: 'Robert T. Kiyosaki',
-      price: '14,00',
-      previousprice: '27,00',
+      image: images.product3,
+      title: 'SARDINAS EN SALSA DE TOMATE',
+      brand: 'MARGARITA',
+      price: '1,25',
+      previousprice: '1,50',
       currency: '$',
-      id: '5'
+      id: '3'
+    },
+    {
+      image: images.product4,
+      title: 'KETCHUP PAMPERO 300ML',
+      price: '1,25',
+      previousprice: '1,50',
+      currency: '$',
+      id: '4'
     },
     {
       image: images.product6,
-      title: 'UN CUENTO PERFECTO',
-      brand: 'ELÍSABET BENAVENT',
-      price: '14,00',
-      previousprice: '27,00',
+      title: 'ATUN EN ACEITE EVEBA 1KG',
+      price: '1,25',
+      previousprice: '1,50',
       currency: '$',
-      id: '6'
-    },
-    {
-      image: images.product7,
-      title: 'HÁBITOS ATÓMICOS',
-      brand: 'JAMES CLEAR',
-      price: '14,00',
-      previousprice: '27,00',
-      currency: '$',
-      id: '7'
+      id: '5'
     },
   ]
 
