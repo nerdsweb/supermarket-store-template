@@ -88,7 +88,7 @@ export class MainHeaderComponent {
    */
   openSearch() {
 
-    this.dialogsService.CmmOpenSearchDialog({ inputMode: 'makeup' })
+    this.dialogsService.CmmOpenSearchDialog({ inputMode: 'supermarket' })
 
   }
 
