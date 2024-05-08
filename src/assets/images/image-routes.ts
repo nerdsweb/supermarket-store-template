@@ -7,6 +7,8 @@ export const icons = {
     facebook: 'assets/images/icons/icons8-facebook.svg',
     instagram: 'assets/images/icons/icons8-instagram.svg',
     whatsapp: 'assets/images/icons/whatsapp.svg',
+    return: 'assets/images/icons/return.svg',
+    purse: 'assets/images/icons/purse.svg',
 }
 
 export const logos = {

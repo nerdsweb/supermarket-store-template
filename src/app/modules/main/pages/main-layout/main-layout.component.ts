@@ -26,25 +26,25 @@ export class MainLayoutComponent {
   smallMode: boolean = false
 
   footerConfig: CmmEcomFooterConfig = {
-    // items: [
-    //   {
-    //     icon: icons.van,
-    //     info: 'Envío Gratis',
-    //     text: 'Solo dentro la ciudad de Caracas'
-    //   },
-    //   {
-    //     icon: icons.return,
-    //     info: 'Devoluciones',
-    //     text: 'Devoluciones gratuitas y cambios'
-    //   },
-    //   {
-    //     icon: icons.purse,
-    //     info: 'Empaque exclusivo',
-    //     text: 'Empaque exclusivo por marca'
-    //   },
-    // ],
+    items: [
+      {
+        icon: icons.van,
+        info: 'Envío Gratis',
+        text: 'Solo dentro la ciudad de Caracas'
+      },
+      {
+        icon: icons.return,
+        info: 'Devoluciones',
+        text: 'Devoluciones gratuitas y cambios'
+      },
+      {
+        icon: icons.purse,
+        info: 'Empaque exclusivo',
+        text: 'Empaque exclusivo por marca'
+      },
+    ],
     mainLogo: logos.daves,
-    mainLogoSize: {width: '75px', height: '110px'},
+    mainLogoSize: { width: '75px', height: '110px' },
     businessInfo: {
       name: "Dave's",
       phone: '+58 0424-5555607',
