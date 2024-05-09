@@ -13,6 +13,7 @@ export const icons = {
 
 export const logos = {
     daves: 'assets/images/logos/daves.svg',
+    freshmarket: 'assets/images/logos/freshmarket.svg'
 }
 
 export const images = {
@@ -33,4 +34,6 @@ export const images = {
     home_bg2: 'assets/images/home_bg2.jpg',
     home_oranges: 'assets/images/home_oranges.png',
     products_bg: 'assets/images/products_bg.jpg',
+    beauty_bg: 'assets/images/beauty_bg.png',
+    health_bg: 'assets/images/health_bg.png',
 }
