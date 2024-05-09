@@ -43,7 +43,7 @@ export class MainLayoutComponent {
         text: 'Empaque exclusivo por marca'
       },
     ],
-    mainLogo: logos.daves,
+    mainLogo: logos.freshmarket,
     mainLogoSize: { width: '75px', height: '110px' },
     businessInfo: {
       name: "Dave's",
