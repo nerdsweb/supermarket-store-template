@@ -23,6 +23,10 @@
 
                 <!-- Contenido principal -->
                 <mat-sidenav-content>
+
+                    <!-- Componente de breadcrumb -->
+                    <cmp-cmm-breadcrumb *ngIf="!currentRoute.includes('home')"></cmp-cmm-breadcrumb>
+
                     <router-outlet></router-outlet>
                 </mat-sidenav-content>
 

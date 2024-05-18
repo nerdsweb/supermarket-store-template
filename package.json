@@ -1,12 +1,13 @@
 {
   "name": "supermarket-store-template",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng deploy --base-href=/supermarket-store-template/"
   },
   "private": true,
   "dependencies": {
