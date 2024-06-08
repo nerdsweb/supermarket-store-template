@@ -38,7 +38,6 @@ export class HomeLayoutComponent {
     {
       image: images.product3,
       title: 'SARDINAS EN SALSA DE TOMATE',
-      brand: 'MARGARITA',
       price: '1,25',
       previousprice: '1,50',
       currency: '$',
@@ -71,7 +70,6 @@ export class HomeLayoutComponent {
     {
       image: images.product8,
       title: 'JAMÓN ENDIABLADO',
-      brand: 'PLUMROSE',
       price: '1,25',
       previousprice: '1,50',
       currency: '$',

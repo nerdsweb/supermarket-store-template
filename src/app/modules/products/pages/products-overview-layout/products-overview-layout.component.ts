@@ -14,7 +14,6 @@ export class ProductsOverviewLayoutComponent {
       mainImage: images.product3,
       images: [],
       name: 'SARDINAS EN SALSA DE TOMATE',
-      brand: 'MARGARITA',
       price: '1,25',
       previousPrice: '1,50',
       currency: '$',

@@ -19,7 +19,6 @@ export class ProductsDetailLayoutComponent {
     ],
     mainImage: images.product6,
     name: 'PASTA PLUMA SUPERIOR',
-    brand: 'MARY',
     price: '1,75',
     quantity: 1,
     currency: 'S',
@@ -35,7 +34,6 @@ export class ProductsDetailLayoutComponent {
     {
       image: images.product3,
       title: 'SARDINAS EN SALSA DE TOMATE',
-      brand: 'MARGARITA',
       price: '1,25',
       previousprice: '1,50',
       currency: '$',
