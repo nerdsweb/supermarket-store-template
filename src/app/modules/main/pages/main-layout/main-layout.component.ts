@@ -43,10 +43,10 @@ export class MainLayoutComponent {
         text: 'Empaque exclusivo por marca'
       },
     ],
-    mainLogo: logos.freshmarket,
-    mainLogoSize: { width: '75px', height: '110px' },
+    mainLogo: logos.freshmarket_white,
+    mainLogoSize: { width: '150px', height: '70px' },
     businessInfo: {
-      name: "Dave's",
+      name: "",
       phone: '+58 0424-5555607',
       mail: 'atencion@miraculous.com',
       direction: 'Av. Circumbalación del sol, calle 110 con av 62 de El Cafetal, Caracas'
