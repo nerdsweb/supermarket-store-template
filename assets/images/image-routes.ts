@@ -13,7 +13,8 @@ export const icons = {
 
 export const logos = {
     daves: 'assets/images/logos/daves.svg',
-    freshmarket: 'assets/images/logos/freshmarket.svg'
+    freshmarket: 'assets/images/logos/freshmarket.svg',
+    freshmarket_white: 'assets/images/logos/freshmarket_white.svg',
 }
 
 export const images = {
