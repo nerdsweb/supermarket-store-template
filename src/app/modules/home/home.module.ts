@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeLayoutComponent } from './pages/home-layout/home-layout.component';
-import { CmmModule } from 'src/app/common/common.module';
 import { CoreModule } from 'src/app/core/core.module';
+import { NerdswebCommonModule } from 'nerdsweb-common';
 
 
 @NgModule({
@@ -14,7 +14,7 @@ import { CoreModule } from 'src/app/core/core.module';
   imports: [
     CommonModule,
     CoreModule,
-    CmmModule,
+    NerdswebCommonModule,
     HomeRoutingModule
   ]
 })

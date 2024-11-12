@@ -1,6 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
-import { CmmEcomFooterConfig } from 'src/app/common/data/utils/models/ecommerce.models';
+import { CmmEcomFooterConfig } from 'nerdsweb-common';
 import { icons, logos } from 'src/assets/images/image-routes';
 
 @Component({

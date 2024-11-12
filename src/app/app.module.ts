@@ -6,13 +6,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { CmmModule } from './common/common.module';
-import { CmmDataService } from './common/services/data.service';
-import { CmmTimerSessionService } from './common/services/timer-session.service';
-import { CmmDialogService } from './common/services/dialogs.service';
-import { CmmAuthGuard } from './common/guards/auth.guard';
-import { CmmHttpInterceptor } from './common/interceptors/http.interceptor';
+import { CmmDataService } from 'nerdsweb-common';
+import { CmmTimerSessionService } from 'nerdsweb-common';
+import { CmmDialogService } from 'nerdsweb-common';
+import { CmmAuthGuard } from 'nerdsweb-common';
+// import { CmmHttpInterceptor } from './common/interceptors/http.interceptor';
 import { AppRoutingModule, routes } from './app-routing.module';
+import { NerdswebCommonModule } from 'nerdsweb-common';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,7 +21,7 @@ import { AppRoutingModule, routes } from './app-routing.module';
     BrowserModule,
     FormsModule,
     CommonModule,
-    CmmModule,
+    NerdswebCommonModule,
     ReactiveFormsModule,
     RouterModule,
     AppRoutingModule,
@@ -33,11 +33,11 @@ import { AppRoutingModule, routes } from './app-routing.module';
     CmmTimerSessionService,
     CmmDialogService,
     CmmAuthGuard,
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: CmmHttpInterceptor,
-      multi: true,
-    },
+    // {
+    //   provide: HTTP_INTERCEPTORS,
+    //   useClass: CmmHttpInterceptor,
+    //   multi: true,
+    // },
   ],
   bootstrap: [AppComponent],
   schemas: [

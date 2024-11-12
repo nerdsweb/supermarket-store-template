@@ -5,23 +5,26 @@
 --------------------------------------------------------------------------------------------------------------------------------------*/
 
 @import "node_modules/bootstrap/dist/css/bootstrap.css";
-@import "./app/common/assets/styles/scss/backgrounds.scss";
-@import "./app/common/assets/styles/scss/materialize.scss";
-@import "./app/common/assets/styles/scss/text.scss";
-@import "./app/common/assets/styles/scss/variables.scss";
-@import "./app/common/assets/styles/scss/effects.scss";
-@import "./app/common/assets/styles/scss/themes-material.scss";
+@import "node_modules/nerdsweb-common/styles/main.scss";
 
 html {
-    --scroll-behavior: smooth !important;
-    scroll-behavior: smooth !important;
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 *:not(.material-icons) {
-    font-family: "montserrat" !important;
-    box-sizing: border-box;
-    box-sizing: border-box !important;
-    scroll-behavior: smooth !important;
+  font-family: "montserrat" !important;
+  box-sizing: border-box;
+  box-sizing: border-box !important;
+  scroll-behavior: smooth !important;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: url(assets/fonts/material/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
 }
 
 @font-face {
@@ -49,25 +52,25 @@ html {
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .line {
-    width: 50px;
-    height: 2px;
+  width: 50px;
+  height: 2px;
 }
 
 .color_box {
-    width: 30px;
-    height: 20px;
-    border: 1px solid black;
+  width: 30px;
+  height: 20px;
+  border: 1px solid black;
 }
 
 @media (max-width: 400px) {
 
-    .decorated_title {
-        flex: min-content;
-        width: min-content;
-    }
+  .decorated_title {
+    flex: min-content;
+    width: min-content;
+  }
 
 }

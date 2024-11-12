@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CmmEcomProductDetailModelv2 } from 'src/app/common/data/utils/models/ecommerce.models';
+import { CmmEcomProductDetailModelv2 } from 'nerdsweb-common';
 import { images } from 'src/assets/images/image-routes';
 
 @Component({

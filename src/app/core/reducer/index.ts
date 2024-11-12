@@ -1,7 +1,7 @@
 import { ActionReducerMap, MetaReducer } from '@ngrx/store';
-import { TablesReducer, TablesState } from 'src/app/common/data/tables/reducer/tables.reducer';
-import { CmmUtilsStateModel } from 'src/app/common/data/utils/models/utils.model';
-import { UtilsReducer } from 'src/app/common/data/utils/reducer/utils.reducer';
+import { TablesReducer, TablesState } from 'nerdsweb-common';
+import { CmmUtilsStateModel } from 'nerdsweb-common';
+import { UtilsReducer } from 'nerdsweb-common';
 import { environment } from 'src/environments/environment';
 import { ModulesReducer, ModulesState } from './module.reducers';
 

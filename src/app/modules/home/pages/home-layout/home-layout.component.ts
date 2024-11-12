@@ -1,7 +1,6 @@
 import { Component, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
-import { logoShape } from 'src/app/common/assets/images/images-routes';
-import { CmmEcomProductCardDataModel } from 'src/app/common/data/utils/models/ecommerce.models';
+import { CmmEcomProductCardDataModel } from 'nerdsweb-common';
 import { images, logos } from 'src/assets/images/image-routes';
 
 @Component({

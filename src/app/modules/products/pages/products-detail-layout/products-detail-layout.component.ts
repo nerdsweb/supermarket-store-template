@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CmmEcomProductDetailModelv2 } from 'src/app/common/data/utils/models/ecommerce.models';
+import { CmmEcomProductDetailModelv2 } from 'nerdsweb-common';
 import { icons, images } from 'src/assets/images/image-routes';
 
 @Component({

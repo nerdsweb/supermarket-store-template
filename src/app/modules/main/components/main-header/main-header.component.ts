@@ -1,7 +1,6 @@
 import { Component, EventEmitter, HostListener, Input, Output } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { CmmSearchDialogComponent } from 'src/app/common/components/ecommerce/cmm-search-dialog/cmm-search-dialog.component';
-import { CmmDialogService } from 'src/app/common/services/dialogs.service';
+import { CmmDialogService } from 'nerdsweb-common';
 import { icons, images, logos } from 'src/assets/images/image-routes';
 
 @Component({
